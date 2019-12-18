@@ -3,6 +3,7 @@ const express = require('express')
 const cors = require('cors')
 const morgan = require('morgan')
 const helmet = require('helmet')
+const logger = require('./logger')
 const bookmarksRouter = require('./bookmarks/bookmarks-router')
 const { NODE_ENV} = require('./config')
 
@@ -13,6 +14,7 @@ const morganOption = (NODE_ENV === 'production') ? 'tiny' : 'common';
 app.use(morgan(morganOption))
 app.use(helmet())
 app.use(cors())
+app.use(express.json())
 
 app.use(function validationBearerToken( req, res, next){
     const apiToken = process.env.API_TOKEN

@@ -1,0 +1,10 @@
+{"message":"Bookmark with id undefined created","level":"info"}
+{"message":"Bookmark with id 90c42f98-3fce-45ea-964d-8ccd770e19d1 created","level":"info"}
+{"message":"Bookmark with id 716a4ba2-aa79-4a6c-af38-f55a8d1aa537 created","level":"info"}
+{"message":"Bookmark with id ea68ffbb-62b4-44f5-b3fc-958e26a95494 created","level":"info"}
+{"message":"Bookmark with id a562bce5-3f2d-41ef-8b1a-f2e92d1360a9 created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks/a562bce5-3f2d-41ef-8b1a-f2e92d1360a9","level":"error"}
+{"message":"Bookmark with id b90e6976-eaf5-43eb-bcba-79fe6aded0a3 created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks/%22b90e6976-eaf5-43eb-bcba-79fe6aded0a3%22","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/b90e6976-eaf5-43eb-bcba-79fe6aded0a3","level":"error"}
+{"message":"Bookmark with id b90e6976-eaf5-43eb-bcba-79fe6aded0a3 deleted.","level":"info"}
